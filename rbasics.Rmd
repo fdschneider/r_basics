@@ -65,12 +65,13 @@ This interface replies to your commands. For instance, basic math can be execute
 [1] 0.271353
 ```
 ---
+
 ### EXERCISE 0
 
 - [ ] install and launch R console
 - [ ] do some math
----
 
+---
 
 
 ## Objects 
@@ -286,7 +287,7 @@ This probably does not work right away. Since you refer to a file outside of R, 
   
 2. setting the working directory for R
 ```{r}
-  setwd("G:/uni/projects/stats/rbasics/")
+  setwd("C:/Users/flschneider/Documents/projects/R/r_basics")
   d0 <- read.csv("d0.csv")
   d1 <- read.csv("d1.csv")
   d2 <- read.csv("d2.csv")
